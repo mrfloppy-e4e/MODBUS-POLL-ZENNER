@@ -1,15 +1,13 @@
-# � Modbus Poll - Zenner Technology
+# � Modbus Poll - Zenner Tecnologías
 
 ## 🎯 Descripción
-Aplicación profesional para comunicación Modbus TCP con interfaz gráfica moderna, diseñada especialmente para dispositivos Zenner. Permite realizar operaciones de lectura y escritura con visualización completa de tramas y análisis detallado del protocolo.
+Aplicación para comunicación Modbus TCP diseñada especialmente para interactuar con todo tipo de esclavos modbus IP. Permite realizar operaciones de lectura y escritura con visualización completa de tramas y análisis detallado del protocolo.
 
 ## ✨ Características Principales
 
 ### 🖥️ Interfaz Gráfica
 - **Diseño dividido en dos paneles**: Configuración y visualización de resultados
 - **Ventana maximizada automática** para mejor experiencia de usuario
-- **Logo Zenner Technology** integrado en la interfaz
-- **Favicon personalizado** con branding corporativo
 
 ### 📊 Funcionalidades Modbus
 - **Soporte completo** para todas las funciones Modbus estándar:
@@ -45,10 +43,8 @@ Aplicación profesional para comunicación Modbus TCP con interfaz gráfica mode
 
 ## 🚀 Instalación Rápida
 
-### Opción 1: Ejecutable (Recomendado)
-1. Descargar `ModbusPoll-Zenner-v2.exe` desde la carpeta `dist/`
-2. Ejecutar el archivo directamente (no requiere instalación)
-3. ¡Listo para usar!
+### Opción 1: Ejecutable (Windows)
+Descargar ModbusPoll-Zenner-v2.exe y ejecutar.
 
 ### Opción 2: Desarrollo
 ```bash
@@ -181,5 +177,7 @@ Para soporte técnico o reportar problemas:
 Este proyecto está desarrollado para Zenner Technology como herramienta interna de diagnóstico y comunicación Modbus.
 
 ---
-**Desarrollado con ❤️ para Zenner Technology**  
+**Desarrollado con ❤️ para Zenner Technologias por Eric Azua Gargurevich**  
+**https://eazua.com**  
+**https://www.zenner.cl**  
 *Versión: 2.0 con visualización completa de tramas Modbus TCP/PDU*
