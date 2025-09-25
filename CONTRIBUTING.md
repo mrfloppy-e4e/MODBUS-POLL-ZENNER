@@ -5,7 +5,7 @@
 ## 🎯 Cómo Contribuir
 
 ### 🐛 Reportar Bugs
-1. Verifica que el bug no haya sido reportado previamente en [Issues](https://github.com/rockmanchile/MODBUS-POLL-ZENNER/issues)
+1. Verifica que el bug no haya sido reportado previamente en [Issues](https://github.com/mrfloppy-e4e/MODBUS-POLL-ZENNER/issues)
 2. Crea un nuevo issue usando la plantilla de Bug Report
 3. Incluye toda la información solicitada en la plantilla
 
@@ -25,7 +25,7 @@
 
 1. **Fork el repositorio**
    ```bash
-   git fork https://github.com/rockmanchile/MODBUS-POLL-ZENNER.git
+   git fork https://github.com/mrfloppy-e4e/MODBUS-POLL-ZENNER.git
    ```
 
 2. **Clonar tu fork**
@@ -132,7 +132,7 @@ MODBUS POLL ZENNER/
 - [ ] Gráficos en tiempo real
 
 ### 🐛 Bugs Conocidos
-- Consulta los [Issues abiertos](https://github.com/rockmanchile/MODBUS-POLL-ZENNER/issues)
+- Consulta los [Issues abiertos](https://github.com/mrfloppy-e4e/MODBUS-POLL-ZENNER/issues)
 
 ### 📚 Documentación
 - Traducción a otros idiomas

@@ -53,7 +53,7 @@ Aplicación profesional para comunicación Modbus TCP con interfaz gráfica mode
 ### Opción 2: Desarrollo
 ```bash
 # Clonar el repositorio
-git clone [URL_DEL_REPOSITORIO]
+git clone https://github.com/mrfloppy-e4e/MODBUS-POLL-ZENNER.git
 
 # Ir al directorio
 cd "MODBUS POLL ZENNER"
