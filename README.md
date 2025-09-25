@@ -3,6 +3,9 @@
 ## 🎯 Descripción
 Aplicación para comunicación Modbus TCP diseñada especialmente para interactuar con todo tipo de esclavos modbus IP. Permite realizar operaciones de lectura y escritura con visualización completa de tramas y análisis detallado del protocolo.
 
+<img width="1600" height="848" alt="image" src="https://github.com/user-attachments/assets/0cf1b153-1497-461f-87c5-96ee97ae0c2e" />
+
+
 ## ✨ Características Principales
 
 ### 🖥️ Interfaz Gráfica
