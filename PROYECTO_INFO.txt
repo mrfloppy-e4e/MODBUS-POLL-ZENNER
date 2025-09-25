@@ -1,0 +1,178 @@
+🏢 PROYECTO: MODBUS TCP POLL - ZENNER TECHNOLOGY
+📅 FECHA ACTUALIZACIÓN: 25 de Septiembre, 2025
+📊 VERSIÓN ACTUAL: 2.2.0 - Visualización Completa de Tramas
+🚀 ESTADO: COMPLETADO CON FUNCIONALIDADES AVANZADAS
+
+═══════════════════════════════════════════════════════════════
+
+🎯 DESCRIPCIÓN DEL PROYECTO
+──────────────────────────────────────────────────────────────
+Aplicación profesional de comunicación Modbus TCP con interfaz gráfica 
+moderna, diseñada específicamente para dispositivos Zenner. Incluye 
+análisis completo de tramas, visualización de protocolos TCP/PDU, 
+sistema de debug inteligente y branding corporativo completo.
+
+✨ FUNCIONALIDADES PRINCIPALES IMPLEMENTADAS
+──────────────────────────────────────────────────────────────
+🔹 COMUNICACIÓN MODBUS COMPLETA
+  ✅ FC01: Read Coils (Lectura de bobinas)
+  ✅ FC02: Read Discrete Inputs (Lectura de entradas discretas)
+  ✅ FC03: Read Holding Registers (Lectura de registros de retención)
+  ✅ FC04: Read Input Registers (Lectura de registros de entrada)
+  ✅ FC05: Write Single Coil (Escritura de bobina única)
+  ✅ FC06: Write Single Register (Escritura de registro único)
+  ✅ FC15: Write Multiple Coils (Escritura de bobinas múltiples)
+  ✅ FC16: Write Multiple Registers (Escritura de registros múltiples)
+
+🔹 VISUALIZACIÓN AVANZADA DE TRAMAS (NUEVO EN V2.2.0)
+  ✅ Análisis completo del header Modbus TCP
+      • Transaction ID, Protocol ID, Length, Unit ID
+  ✅ Desglose detallado del PDU (Protocol Data Unit)
+      • Function Code con nombres descriptivos
+      • Análisis específico por tipo de función
+      • Mapeo de direcciones y datos
+  ✅ Formato hexadecimal para todos los campos
+  ✅ Tramas de petición y respuesta lado a lado
+  ✅ Timestamps para seguimiento temporal
+
+🔹 INTERFAZ GRÁFICA PROFESIONAL
+  ✅ Diseño en dos paneles (configuración | resultados)
+  ✅ Ventana maximizada automática
+  ✅ Logo Zenner Technology integrado
+  ✅ Favicon personalizado con branding corporativo
+  ✅ Threading para operaciones no bloqueantes
+
+🔹 SISTEMA DE DEBUG INTELIGENTE
+  ✅ Detección automática de errores comunes
+  ✅ Sugerencias específicas para cada problema
+  ✅ Área de debug expandida y visible
+  ✅ Validación en tiempo real de parámetros
+  ✅ Mensajes de éxito con detalles
+
+🔹 ANÁLISIS Y VISUALIZACIÓN DE DATOS
+  ✅ Tabla formateada con múltiples formatos:
+      • Decimal, hexadecimal y binario
+      • Direcciones mapeadas correctamente
+  ✅ Visualización de coils en formato bit
+  ✅ Confirmación de escritura para modificaciones
+
+📁 ESTRUCTURA DEL PROYECTO
+──────────────────────────────────────────────────────────────
+MODBUS POLL ZENNER/
+├── 🔧 APLICACIONES
+│   ├── modbus_gui.py              # Aplicación GUI principal (1,100+ líneas)
+│   ├── modbus_zenner.py           # Versión CLI original
+│   └── build_exe.py               # Script de construcción actualizado
+├── 📦 EJECUTABLES
+│   ├── dist/ModbusPoll-Zenner-v2.exe  # Ejecutable final con assets
+│   └── ModbusPoll-Zenner-v2.spec      # Especificación PyInstaller
+├── 🎨 RECURSOS GRÁFICOS
+│   ├── img/zenner-ico-sinfondo.ico           # Favicon (26987 bytes)
+│   └── img/Zenner Tecnologia FONDOS CLAROS - chicos.png  # Logo (13287 bytes)
+├── 📚 DOCUMENTACIÓN COMPLETA
+│   ├── README.md                  # Descripción general del proyecto
+│   ├── MANUAL_USUARIO.md          # Manual de usuario actualizado
+│   ├── DOCUMENTACION_TECNICA.md   # Documentación técnica completa
+│   ├── CHANGELOG.md               # Historial detallado de versiones
+│   ├── INSTALACION.md             # Guía de instalación
+│   ├── ESTRUCTURA.md              # Estructura del proyecto
+│   └── PROYECTO_INFO.txt          # Este archivo de información
+├── 🧪 SCRIPTS DE VALIDACIÓN
+│   ├── verificar_compatibilidad.py     # Verificación de pymodbus
+│   ├── verificar_sintaxis_pymodbus.py  # Validación de sintaxis
+│   ├── probar_imagenes.py              # Test de recursos gráficos
+│   └── instalar_dependencias.py        # Instalador de dependencias
+└── 🔧 CONFIGURACIÓN
+    ├── requirements.txt           # Dependencias Python
+    └── venv/                      # Entorno virtual
+
+🛠️ TECNOLOGÍAS UTILIZADAS
+──────────────────────────────────────────────────────────────
+• Python 3.12          - Lenguaje de programación base
+• tkinter              - Framework de interfaz gráfica nativa
+• pymodbus 2.5.3       - Librería Modbus (versión compatible)
+• PIL/Pillow           - Procesamiento de imágenes para branding
+• PyInstaller 6.16+    - Generación de ejecutables con assets
+• threading            - Operaciones no bloqueantes
+• datetime             - Timestamps y logging
+
+🎯 FUNCIONALIDADES NUEVAS EN V2.2.0
+──────────────────────────────────────────────────────────────
+🆕 VISUALIZACIÓN COMPLETA DE TRAMAS MODBUS TCP/PDU
+🆕 ANÁLISIS DETALLADO DE HEADERS TCP
+🆕 FORMATEO HEXADECIMAL DE TODOS LOS CAMPOS
+🆕 IDENTIFICACIÓN DE CÓDIGOS DE FUNCIÓN CON NOMBRES
+🆕 MAPEO CORRECTO DE DIRECCIONES Y DATOS
+🆕 TIMESTAMPS PARA TODAS LAS OPERACIONES
+🆕 TRAMAS DE PETICIÓN Y RESPUESTA LADO A LADO
+🆕 DECODIFICACIÓN ESPECÍFICA POR TIPO DE FUNCIÓN
+
+📊 MÉTRICAS DE DESARROLLO
+──────────────────────────────────────────────────────────────
+• Total de líneas de código: ~1,100 (vs 450 en v2.0.0)
+• Nuevas funciones implementadas: 15
+• Funciones de análisis de tramas: 8
+• Mejoras en UI: 12 métodos actualizados
+• Archivos de documentación: 7
+• Scripts de validación: 10+
+
+💡 CASOS DE USO PRINCIPALES
+──────────────────────────────────────────────────────────────
+1. 📊 DIAGNÓSTICO DE DISPOSITIVOS ZENNER
+   - Lectura de registros de medición
+   - Verificación de estados de dispositivos
+   - Análisis de comunicación para troubleshooting
+
+2. 🔧 CONFIGURACIÓN DE PARÁMETROS
+   - Escritura de configuraciones específicas
+   - Ajuste de parámetros de medición
+   - Programación de dispositivos
+
+3. 📈 ANÁLISIS DE PROTOCOLO
+   - Visualización completa de tramas TCP/PDU
+   - Debug de problemas de comunicación
+   - Verificación de integridad de datos
+
+4. 🎓 EDUCACIÓN Y ENTRENAMIENTO
+   - Comprensión del protocolo Modbus TCP
+   - Análisis de estructuras de datos
+   - Aprendizaje de comunicación industrial
+
+🔧 REQUISITOS TÉCNICOS
+──────────────────────────────────────────────────────────────
+MÍNIMOS:
+• Windows 10 o superior (para ejecutable)
+• Conexión TCP/IP a dispositivo Modbus
+• 50 MB de espacio en disco
+
+DESARROLLO:
+• Python 3.8 o superior
+• pip para instalación de dependencias
+• Acceso a red TCP/IP
+• PyInstaller para crear ejecutables
+
+🚀 ESTADO ACTUAL Y COMPLETADO
+──────────────────────────────────────────────────────────────
+✅ FASE 1: Versión CLI básica - COMPLETADA
+✅ FASE 2: Interfaz gráfica - COMPLETADA  
+✅ FASE 3: Branding Zenner - COMPLETADA
+✅ FASE 4: Debug inteligente - COMPLETADA
+✅ FASE 5: Ejecutable con assets - COMPLETADA
+✅ FASE 6: Documentación completa - COMPLETADA
+✅ FASE 7: Visualización de tramas - COMPLETADA
+
+🎉 PROYECTO COMPLETAMENTE FUNCIONAL Y LISTO PARA USO PROFESIONAL
+
+🤝 SOPORTE Y MANTENIMIENTO
+──────────────────────────────────────────────────────────────
+• Documentación técnica completa disponible
+• Scripts de verificación automática incluidos
+• Manual de usuario detallado
+• Código fuente completamente documentado
+• Arquitectura modular para futuras expansiones
+
+═══════════════════════════════════════════════════════════════
+🏆 PROYECTO DESARROLLADO CON EXCELENCIA PARA ZENNER TECHNOLOGY
+📧 Contacto: Equipo de Desarrollo de Software Industrial
+🌐 Uso: Herramienta interna de diagnóstico Modbus TCP/IP
+═══════════════════════════════════════════════════════════════

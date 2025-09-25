@@ -1,0 +1,2 @@
+# Requerimientos para la aplicación Modbus GUI
+pymodbus==2.5.3
