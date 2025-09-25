@@ -1,4 +1,4 @@
-# � Modbus Poll - Zenner Tecnologías
+# Modbus Poll - Zenner Tecnologías
 
 ## 🎯 Descripción
 Aplicación para comunicación Modbus TCP diseñada especialmente para interactuar con todo tipo de esclavos modbus IP. Permite realizar operaciones de lectura y escritura con visualización completa de tramas y análisis detallado del protocolo.
