@@ -129,13 +129,6 @@ MODBUS POLL ZENNER/
 └── venv/                      # Entorno virtual
 ```
 
-## 🧪 Testing y Validación
-
-El proyecto incluye scripts de validación automática:
-- `verificar_compatibilidad.py`: Verifica versiones de pymodbus
-- `verificar_sintaxis_pymodbus.py`: Valida sintaxis de parámetros
-- `probar_imagenes.py`: Prueba carga de recursos gráficos
-
 ## 🆕 Novedades en la Versión Actual
 
 ### ✅ Implementado
