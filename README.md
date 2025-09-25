@@ -173,7 +173,7 @@ Para soporte técnico o reportar problemas:
 Este proyecto está desarrollado para Zenner Technology como herramienta interna de diagnóstico y comunicación Modbus.
 
 ---
-**Desarrollado con ❤️ para Zenner Technologias por Eric Azua Gargurevich**  
+**Desarrollado con ❤️ para Zenner Technologias por Eric Azua Gargurevich (a.k.a. mrfloppy)**  
 **https://eazua.com**  
 **https://www.zenner.cl**  
 *Versión: 2.0 con visualización completa de tramas Modbus TCP/PDU*
